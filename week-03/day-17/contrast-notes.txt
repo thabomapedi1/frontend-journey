@@ -1,0 +1,67 @@
+
+DAY 17 - COLOUR CONTRAST
+
+PART 1: RETRIEVAL
+
+1. POUR:
+Perceivable, Operable, Understandable, Robust.
+
+2. Image tag:
+<img src="images/biltong-rack.jpg"
+alt="Fresh slices of biltong arranged on a display rack">
+
+PART 3: FIVE COLOUR PAIRS
+
+1. Black on white: 21:1 - Pass
+2. #777777 on white: 4.48:1 - Fail
+3. #AAAAAA on white: 2.32:1 - Fail
+4. White on #1F3A5F: 11.48:1 - Pass
+5. White on #FFA500: 1.97:1 - Fail
+
+PART 4: THREE WEBSITES
+
+WEBSITE 1: Google
+Text colour: #4285F4
+Background colour: #F7F8F9
+Contrast ratio: 3.35:1
+WCAG AA: Fail
+
+WEBSITE 2: YouTube
+Text colour: #000000
+Background colour: #FFFFFF
+Contrast ratio: 21:1
+WCAG AA: Pass 
+
+WEBSITE 3: GitHub
+Text colour: #1f2328
+Background colour: #ffffff
+Contrast ratio: 15.79:1
+WCAG AA: Pass  
+
+PART 5: QUIZ
+
+1. What does a ratio of 21:1 mean?
+
+It means there is the highest possible contrast ratio between two colours, such as black text on a white background.
+2. What ratio does AA need?
+Normal text: 4.5:1.
+Large text: 3:1.
+
+3. A form shows required fields only in red. What's the problem, and how would you fix it?
+
+Some users may not be able to distinguish the red colour, so I would also add text such as "Required field" to communicate the information.
+
+4. Why does contrast matter on a phone?
+Good contrast makes text easier to read on small screens, particularly in bright sunlight or when users have visual difficulties.
+
+REFLECTION
+
+Today I learned how to measure colour contrast ratios and understand how they affect website accessibility. One thing I found difficult was identifying the correct text and background colours when inspecting real websites. Next time, I would practise using Chrome DevTools more so I can identify colours and check contrast ratios with more confidence.
+
+RESOURCE
+
+**Resources**
+
+1. [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) – Used to calculate colour contrast ratios and check WCAG AA compliance.
+2. [Chrome DevTools](https://developer.chrome.com/docs/devtools/) – Used to inspect website elements and identify text and background colours.
+3. [W3C WCAG 2.2 – Contrast Minimum](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum) – Used to understand the minimum contrast requirements for accessible text.
