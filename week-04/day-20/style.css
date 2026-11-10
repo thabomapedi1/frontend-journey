@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #1F3A5F;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    color: #1F3A5F;
+    font-size: 32px;
+}
+
+.note {
+    font-size: 18px;
+}
