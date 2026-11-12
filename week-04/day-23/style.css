@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #1F3A5F;
+    background-color: #FFFFFF;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #1F3A5F;
+    color: #FFFFFF;
+    padding: 16px;
+}
+
+.tag {
+    background-color: #E8EEF5;
+    padding: 4px 8px;
+    display: block;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+h2 {
+    margin-bottom: 8px;
+}
