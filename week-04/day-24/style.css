@@ -1,0 +1,86 @@
+/*
+Palette A: Cool and professional
+
+Text:       #1F3A5F
+Background: #FFFFFF
+Primary:    #234E70
+Accent:     #E8EEF5
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #1F3A5F;
+    background-color: #FFFFFF;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #234E70;
+    color: #FFFFFF;
+    padding: 24px;
+}
+
+nav a {
+    color: #FFFFFF;
+    padding: 8px 12px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 65ch;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+.card {
+    border: 2px solid #234E70;
+    background-color: #E8EEF5;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    color: #234E70;
+}
+
+footer {
+    padding: 16px;
+}
+
+
+/* Palette B: Warm and welcoming
+
+Text:       #4A2C2A
+Background: #FFF9F0
+Primary:    #783F2B
+Accent:     #F2DFC4
+*/
+
+body {
+    color: #4A2C2A;
+    background-color: #FFF9F0;
+}
+
+header {
+    background-color: #783F2B;
+    color: #FFF9F0;
+}
+
+nav a {
+    color: #FFF9F0;
+}
+
+.card {
+    border: 2px solid #783F2B;
+    background-color: #F2DFC4;
+}
+
+h2 {
+    color: #783F2B;
+}
