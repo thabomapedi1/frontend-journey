@@ -1,0 +1,89 @@
+
+:root {
+    /* Colour palette */
+    --color-text: #1F3A5F;
+    --color-background: #FFFFFF;
+    --color-primary: #234E70;
+    --color-accent: #E8EEF5;
+
+    /* Spacing scale */
+    --space-1: 8px;
+    --space-2: 16px;
+    --space-3: 24px;
+    --space-4: 32px;
+
+    /* Border width */
+    --border-width: 2px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-background);
+    margin: 0;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    padding: var(--space-3);
+}
+
+nav {
+    margin-top: var(--space-2);
+}
+
+nav a {
+    display: inline-block;
+    color: var(--color-background);
+    background-color: var(--color-primary);
+    padding: var(--space-1) var(--space-2);
+    margin-right: var(--space-1);
+    text-decoration: underline;
+}
+
+main {
+    max-width: 65ch;
+    margin: var(--space-3) auto;
+    padding: 0 var(--space-2);
+}
+
+.card {
+    background-color: var(--color-accent);
+    border: var(--border-width) solid var(--color-primary);
+    padding: var(--space-2);
+    margin-bottom: var(--space-3);
+}
+
+h2 {
+    color: var(--color-primary);
+}
+
+.tag {
+    background-color: var(--color-accent);
+    padding: var(--space-1);
+}
+
+footer {
+    padding: var(--space-2);
+}
+
+:root {
+    --color-text: #4A2C2A;
+    --color-background: #FFF9F0;
+    --color-primary: #783F2B;
+    --color-accent: #F2DFC4;
+
+    --space-1: 8px;
+    --space-2: 16px;
+    --space-3: 24px;
+    --space-4: 32px;
+
+    --border-width: 2px;
+}
