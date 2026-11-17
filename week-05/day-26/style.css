@@ -66,8 +66,8 @@ h2 {
 }
 
 .tag {
-    background-color: var(--color-accent);
-    padding: var(--space-1);
+    background-color: var(--color-primary);
+    color: var(--color-background);
 }
 
 footer {
