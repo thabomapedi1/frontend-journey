@@ -1,0 +1,20 @@
+.meta {
+  font-size: 0.875rem;
+  color: #595959;
+}
+
+.button {
+  display: inline-block;
+  background-color: #234E70;
+  color: #FFFFFF;
+  padding: 8px 16px;
+}
+
+.button:hover {
+  background-color: #16364F;
+}
+
+.button:focus-visible {
+  outline: 3px solid #1F2933;
+  outline-offset: 2px;
+}
