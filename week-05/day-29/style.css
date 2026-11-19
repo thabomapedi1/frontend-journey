@@ -1,0 +1,101 @@
+:root {
+    --color-primary: #234E70;
+    --color-background: #F4F7FA;
+    --color-card: #FFFFFF;
+    --color-text: #1F2933;
+    --color-muted: #595959;
+    --color-light: #FFFFFF;
+
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+    --spacing-extra-large: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+main {
+    max-width: 900px;
+    margin: var(--spacing-extra-large) auto;
+    padding: var(--spacing-medium);
+}
+
+.event-section {
+    padding: var(--spacing-large);
+}
+
+.eyebrow {
+    color: var(--color-primary);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.event-section h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.intro {
+    font-size: 1rem;
+    max-width: 600px;
+}
+
+.card {
+    background-color: var(--color-card);
+    padding: var(--spacing-large);
+    border-radius: 8px;
+    margin-top: var(--spacing-large);
+}
+
+.category {
+    color: var(--color-primary);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.description {
+    font-size: 1rem;
+    color: var(--color-text);
+}
+
+.meta {
+    font-size: 0.875rem;
+    color: var(--color-muted);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: #16364F;
+}
+
+.button:focus-visible {
+    outline: 3px solid var(--color-text);
+    outline-offset: 2px;
+}
