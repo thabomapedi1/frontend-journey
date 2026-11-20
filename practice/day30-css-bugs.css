@@ -1,0 +1,35 @@
+:root {
+    --color-text: #1F3A5F;
+    --color-primary: #234E70;
+    --space-2: 16px;
+    --space-3: 24px;
+}
+
+body {
+    color: var(--color-text);
+    padding: var(--space-3);
+}
+
+.card {
+    position: relative;
+    padding: 16px;
+}
+
+.badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    color: #174A6E;
+    background-color: #E8F1F7;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.button:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 3px;
+}
