@@ -1,0 +1,169 @@
+/* =================================
+   COLOUR PALETTE
+   Background: Main page background
+   Surface: Card background
+   Text: Main readable text
+   Primary: Main brand colour
+================================= */
+
+:root {
+    --color-background: #17212B;
+    --color-surface: #243342;
+    --color-text: #F4F7FA;
+    --color-primary: #356B8C;
+
+    --color-muted: #D4DEE7;
+    --color-badge-background: #DCEAF2;
+
+    --space-1: 8px;
+    --space-2: 16px;
+    --space-3: 24px;
+    --space-4: 32px;
+}
+
+/* Box sizing */
+
+* {
+    box-sizing: border-box;
+}
+
+/* General page styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Sticky header */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    background-color: var(--color-primary);
+    color: var(--color-surface);
+
+    padding: var(--space-3);
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+    margin-top: var(--space-2);
+}
+
+nav a {
+    color: var(--color-surface);
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus-visible {
+    text-decoration: underline;
+}
+
+/* Main content */
+
+main {
+    padding: var(--space-4);
+}
+
+#services > h2 {
+    font-size: 2rem;
+    margin-bottom: var(--space-2);
+}
+
+/* Card layout */
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--space-3);
+    margin-top: var(--space-4);
+}
+
+/* Individual cards */
+
+.card {
+    position: relative;
+
+    background-color: var(--color-surface);
+    color: var(--color-text);
+
+    padding: var(--space-4);
+    border-radius: var(--space-1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Card hierarchy */
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-top: var(--space-3);
+}
+
+.card .meta {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: var(--color-muted);
+}
+
+.card p:not(.meta) {
+    font-size: 1rem;
+}
+
+/* Badge */
+
+.badge {
+    position: absolute;
+    top: var(--space-2);
+    right: var(--space-2);
+
+    background-color: var(--color-badge-background);
+    color: var(--color-primary);
+
+    padding: var(--space-1);
+    border-radius: var(--space-1);
+    font-size: 0.875rem;
+}
+
+/* Buttons */
+
+.button {
+    display: inline-block;
+
+    background-color: var(--color-primary);
+    color: var(--color-surface);
+
+    padding: var(--space-2);
+    margin-top: var(--space-2);
+
+    text-decoration: none;
+    border-radius: var(--space-1);
+}
+
+.button:hover {
+    opacity: 0.85;
+}
+
+.button:focus-visible {
+    outline: 3px solid var(--color-text);
+    outline-offset: var(--space-1);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-surface);
+    padding: var(--space-4);
+    text-align: center;
+}
