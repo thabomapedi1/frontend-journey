@@ -1,0 +1,178 @@
+/* THEME A */
+
+:root {
+    --color-background: #F5F7FA;
+    --color-surface: #FFFFFF;
+    --color-text: #1F3A5F;
+    --color-primary: #234E70;
+    --color-on-primary: #FFFFFF;
+    --color-muted: #4B5563;
+
+    --space-1: 8px;
+    --space-2: 16px;
+    --space-3: 24px;
+    --space-4: 32px;
+}
+
+/* THEME B */
+
+
+:root {
+    --color-background: #17212B;
+    --color-surface: #243342;
+    --color-text: #F4F7FA;
+    --color-primary: #356B8C;
+    --color-on-primary: #F4F7FA;
+    --color-muted: #D4DEE7;
+
+    --space-1: 8px;
+    --space-2: 16px;
+    --space-3: 24px;
+    --space-4: 32px;
+}
+
+
+
+/* Universal box sizing */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+    margin: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: var(--space-3);
+
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    gap: var(--space-2);
+}
+
+nav a {
+    color: var(--color-on-primary);
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus-visible {
+    text-decoration: underline;
+}
+
+/* Main content */
+
+main {
+    padding: var(--space-4);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: var(--space-3);
+}
+
+/* Card */
+
+.card {
+    position: relative;
+
+    max-width: 400px;
+
+    padding: var(--space-4);
+
+    background-color: var(--color-surface);
+    color: var(--color-text);
+
+    border-radius: var(--space-1);
+}
+
+/* Card title */
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-top: var(--space-3);
+}
+
+/* Meta information */
+
+.meta {
+    color: var(--color-muted);
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+/* Badge */
+
+.badge {
+    position: absolute;
+    top: var(--space-2);
+    right: var(--space-2);
+
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+
+    padding: var(--space-1);
+    border-radius: var(--space-1);
+    font-size: 0.875rem;
+}
+
+/* Button */
+
+.button {
+    display: inline-block;
+
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+
+    padding: var(--space-2);
+    margin-top: var(--space-2);
+
+    border-radius: var(--space-1);
+    text-decoration: none;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.button:focus-visible {
+    outline: 3px solid var(--color-text);
+    outline-offset: var(--space-1);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    padding: var(--space-4);
+    margin-top: var(--space-4);
+}
