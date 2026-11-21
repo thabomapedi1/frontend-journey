@@ -11,6 +11,7 @@
     --color-surface: #243342;
     --color-text: #F4F7FA;
     --color-primary: #356B8C;
+    --color-on-primary: #FFFFFF;
 
     --color-muted: #D4DEE7;
     --color-badge-background: #DCEAF2;
@@ -46,7 +47,7 @@ header {
     z-index: 10;
 
     background-color: var(--color-primary);
-    color: var(--color-surface);
+    color: var(--color-on-primary);
 
     padding: var(--space-3);
 }
@@ -61,7 +62,7 @@ nav {
 }
 
 nav a {
-    color: var(--color-surface);
+    color: var(--color-on-primary);
     text-decoration: none;
 }
 
@@ -141,7 +142,7 @@ main {
     display: inline-block;
 
     background-color: var(--color-primary);
-    color: var(--color-surface);
+    color: var(--color-on-primary);
 
     padding: var(--space-2);
     margin-top: var(--space-2);
@@ -163,7 +164,7 @@ main {
 
 footer {
     background-color: var(--color-primary);
-    color: var(--color-surface);
+    color: var(--color-on-primary);
     padding: var(--space-4);
     text-align: center;
 }
